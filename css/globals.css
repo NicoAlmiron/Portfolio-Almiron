@@ -85,6 +85,7 @@ footer {
 }
 
 .nombre {
+    color: var(--font-1);
     font-family: "anton";
     padding: 0.5rem;
 }
@@ -164,4 +165,20 @@ h3 {
     color: var(--font-4);
     background-color: #0a2647;
     padding: 2rem;
+}
+
+.conteiner {
+    border-radius: 1rem;
+    border: 1px solid;
+    padding: 2vh;
+    margin-top: 1rem;
+    background-color: var(--secondary);
+}
+
+.button-active {
+    cursor: pointer;
+}
+
+.text-decoration-2 {
+    font-family: "anton";
 }

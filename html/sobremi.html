@@ -7,19 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Importacion de CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <!-- Utilizacion de fuentes de Google -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/405d5358c0.js" crossorigin="anonymous"></script>
-    <title>Portfolio Adrian N. Almiron</title>
+    <title>Sobre Mi</title>
 </head>
 
 <body>
     <nav class="d-flex navbar">
-        <section class="logo button-active">
-            <i class="fa-solid fa-clipboard-user"></i>
+        <section class="button-active">
+            <a href="/index.html" class="logo">
+                <i class="fa-solid fa-clipboard-user"></i>
+            </a>
         </section>
         <section>
             <ul class="d-flex nav-btn">
@@ -42,12 +44,29 @@
         </div>
     </header>
     <main class="d-flex flex-column">
-        <section class="conteiner">
-            <p class="secondari-title text-decoration-2">Mi historia</p>
-            <p class="text-decoration-1">Soy estudiante de primer año en la carrera de ingeniería en electronica en la Universidad Tecnologica Nacional FRT, tengo 22 años y vivo en San Miguel de Tucumán. Comencé a cursar Full Stack para independizarme e adquirir experiencia laboral.
-                Uno de mis hobbies es distraerme en juegos de pc o leer sobre actualidad.</p>
-            <p></p>
-        </section>
+        <section>
+            <section id="informacionPersonal">
+                <div class="d-flex item">
+                    <i class="fa-solid fa-id-card"></i>
+                    <h2 class="secondari-title">Sobre mi</h2>
+                </div>
+                <article>
+                    <ul class="list-column">
+                        <li class="list">
+                            <span>Edad:</span> 22 años
+                        </li>
+                        <li class="list">
+                            <span>Email:</span> almiron.nicolas16@gmail.com
+                        </li>
+                        <li class="list">
+                            <span>Telefono:</span> +54 381 3320674
+                        </li>
+                        <li class="list">
+                            <span>Direccion:</span> Magallanes 4199, San miguel de Tucuman, Tucuman
+                        </li>
+                    </ul>
+                </article>
+            </section>
     </main>
     <footer class="d-flex flex-center flex-column nombre">
         <p>Almiron, Adrian Nicolas</p>
