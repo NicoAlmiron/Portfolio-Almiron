@@ -1,184 +1,195 @@
 :root {
-    --primary: #144272;
-    --secondary: #205295;
-    --third: #2c74b3;
-    --fourth: #0a2647;
-    --font-1: #f4f4f2;
-    --font-2: #e8e8e8;
-    --font-3: #bbbfca;
-    --font-4: #495464;
+  --primary: #144272;
+  --secondary: #205295;
+  --third: #2c74b3;
+  --fourth: #0a2647;
+  --font-1: #f4f4f2;
+  --font-2: #e8e8e8;
+  --font-3: #bbbfca;
+  --font-4: #495464;
 }
 
 body {
-    font-family: "PT sans";
-    background-color: var(--third);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: "PT sans";
+  background-color: var(--third);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav,
 header,
 main,
 footer {
-    padding: 0% 7%;
+  padding: 0% 7%;
 }
 
 nav {
-    height: 7vh;
+  height: 7vh;
 }
 
 header {
-    height: 40vh;
-    background-color: var(--secondary);
+  height: 40vh;
+  background-color: var(--secondary);
+  padding: 30px;
 }
 
 footer {
-    margin-top: auto;
-    background-color: var(--fourth);
-    height: 12vh;
+  margin-top: auto;
+  background-color: var(--fourth);
+  height: 12vh;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .navbar {
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary);
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
 }
 
 .logo {
-    font-size: 2.5rem;
-    color: var(--font-1);
+  font-size: 2.5rem;
+  color: var(--font-1);
 }
 
 .nav-btn {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-options {
-    margin: 0.625rem;
+  margin: 0.625rem;
 }
 
 .btn-navbar {
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border: 2px solid cadetblue;
-    display: inline-block;
-    color: var(--font-1);
-    transition: all 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid cadetblue;
+  display: inline-block;
+  color: var(--font-1);
+  transition: all 0.5s;
 }
 
 .btn-navbar:hover {
-    background-color: var(--third);
-    padding-left: 1rem;
-    padding-right: 1rem;
+  background-color: var(--third);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .btn-navbar:active {
-    color: #144272;
-    background-color: aqua;
+  color: #144272;
+  background-color: aqua;
 }
 
 .nombre {
-    color: var(--font-1);
-    font-family: "anton";
-    padding: 0.5rem;
+  color: var(--font-1);
+  font-family: "anton";
+  padding: 0.5rem;
 }
 
 .flex-center {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .secondari-title {
-    padding-left: 0.5rem;
-    font-size: 2rem;
-    color: var(--font-2);
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  color: var(--font-2);
 }
 
 .d-inline {
-    display: inline;
+  display: inline;
 }
 
 .d-block {
-    display: block;
+  display: block;
 }
 
 .d-inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .list-column {
-    flex-direction: column;
-    padding-left: 1rem;
+  flex-direction: column;
+  padding-left: 1rem;
 }
 
 .item {
-    font-size: 2rem;
-    padding: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .list {
-    padding: 1vh;
-    height: 3vh;
+  padding: 1vh;
+  height: 3vh;
 }
 
 .text-decoration-1 {
-    padding-top: 0.5rem;
-    color: var(--font-3);
+  padding-top: 0.5rem;
+  color: var(--font-3);
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .d-grid {
-    display: grid;
+  display: grid;
 }
 
 .grid-list-container {
-    grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 .card {
-    border-radius: 8px;
-    margin: 1px;
-    height: 12rem;
-    color: var(--font-4);
-    background-color: #0a2647;
-    padding: 2rem;
+  border-radius: 8px;
+  margin: 1px;
+  height: 12rem;
+  color: var(--font-4);
+  background-color: #0a2647;
+  padding: 2rem;
 }
 
 .conteiner {
-    border-radius: 1rem;
-    border: 1px solid;
-    padding: 2vh;
-    margin-top: 1rem;
-    background-color: var(--secondary);
+  border-radius: 1rem;
+  border: 1px solid;
+  padding: 2vh;
+  margin: 1rem;
+  background-color: var(--secondary);
 }
 
 .button-active {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .text-decoration-2 {
-    font-family: "anton";
+  font-family: "anton";
+}
+
+.foto-frente {
+  border-radius: 1rem;
+  margin: 20px;
+}
+
+.img-articulo {
+  margin: 20px;
+  border-radius: 10px;
 }
