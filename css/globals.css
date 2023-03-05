@@ -29,7 +29,6 @@ nav {
 }
 
 header {
-  height: 40vh;
   background-color: var(--secondary);
   padding: 30px;
 }
@@ -96,8 +95,16 @@ footer {
   align-items: center;
 }
 
+.aling-center {
+  align-items: center;
+}
+
 .flex-column {
   flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 h1 {
@@ -151,14 +158,6 @@ h3 {
   font-size: 1.5rem;
 }
 
-.d-grid {
-  display: grid;
-}
-
-.grid-list-container {
-  grid-template-columns: auto auto;
-}
-
 .card {
   border-radius: 8px;
   margin: 1px;
@@ -187,9 +186,24 @@ h3 {
 .foto-frente {
   border-radius: 1rem;
   margin: 20px;
+  border-left: #0a2647 2px solid;
+  border-bottom: #0a2647 2px solid;
 }
 
 .img-articulo {
   margin: 20px;
   border-radius: 10px;
+  height: 100px;
+}
+
+.margin-x1 {
+  margin: 15px;
+}
+
+.margin-x1-right {
+  margin-right: 10px;
+}
+
+.margin-x1-left {
+  margin-left: 10px;
 }
