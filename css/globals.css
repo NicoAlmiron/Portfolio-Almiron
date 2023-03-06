@@ -175,10 +175,6 @@ h3 {
     border-bottom: var(--shadow-1) 4px solid;
 }
 
-.grid-card {
-    grid-template-columns: 15vh auto;
-}
-
 .conteiner {
     border-radius: 1rem;
     border: 1px solid;
@@ -232,8 +228,20 @@ h3 {
     display: grid;
 }
 
+.grid-card {
+    grid-template-columns: 15vh auto;
+}
+
+.grid-card-2 {
+    grid-template-columns: 25vh auto;
+}
+
 .grid-list-container {
     grid-template-columns: auto;
+}
+
+.grid-list-container-small {
+    grid-template-columns: auto auto;
 }
 
 .card-2 {
@@ -252,8 +260,23 @@ h3 {
     background-color: #3a5ba0;
 }
 
+.background-img {
+    border-radius: 5px;
+    background-image: url("https://w0.peakpx.com/wallpaper/48/186/HD-wallpaper-pc-gmaer-pc-gamer-teclado-gamer-thumbnail.jpg");
+    background-position: center;
+    background-size: auto;
+}
 
-/* 
+.background-img-1 {
+    border-radius: 5px;
+    background-image: url("https://www.reab.es/wp-content/uploads/2020/04/pelicula-en-casa-678x381.jpg");
+    background-position: center;
+    background-size: auto;
+}
 
-
-*/
+.background-img-2 {
+    border-radius: 5px;
+    background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/7c/f4.jpg");
+    background-position: center;
+    background-size: auto;
+}
