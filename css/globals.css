@@ -55,6 +55,10 @@ footer {
     color: var(--font-1);
 }
 
+.icon-decoration {
+    font-size: 2rem;
+}
+
 .nav-btn {
     list-style: none;
 }
@@ -198,8 +202,8 @@ h3 {
 .foto-frente {
     border-radius: 1rem;
     margin: 20px;
-    border-left: #0a2647 2px solid;
-    border-bottom: #0a2647 2px solid;
+    border-left: var(--shadow-1) 2px solid;
+    border-bottom: var(--shadow-1) 2px solid;
 }
 
 .img-articulo {
@@ -234,6 +238,10 @@ h3 {
 
 .grid-card-2 {
     grid-template-columns: 25vh auto;
+}
+
+.grid-button {
+    grid-template-columns: 8vh 12vh auto;
 }
 
 .grid-list-container {
@@ -279,4 +287,28 @@ h3 {
     background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/7c/f4.jpg");
     background-position: center;
     background-size: auto;
+}
+
+.button-redes {
+    color: var(--font-2);
+    background-color: var(--third);
+    border: none;
+}
+
+.button-redes:hover {
+    cursor: pointer;
+    border-radius: 15px;
+    border-left: var(--shadow-1) 4px solid;
+    border-bottom: var(--shadow-1) 4px solid;
+    background-color: #3a5ba0;
+}
+
+.button-redes:active {
+    color: #06283d;
+    background-color: aqua;
+    border: none;
+}
+
+.margin-bottom {
+    margin-bottom: 10vh;
 }
