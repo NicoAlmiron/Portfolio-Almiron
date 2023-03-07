@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+    .grid-card-3 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid-list-container {
+        grid-template-columns: auto auto;
+    }
+    .grid-card-3 {
+        grid-template-columns: auto;
+    }
+}

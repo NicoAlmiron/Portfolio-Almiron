@@ -124,7 +124,7 @@ h2 {
 .secondari-title {
     padding-left: 0.5rem;
     font-size: 2rem;
-    color: var(--font-2);
+    color: var(--font-3);
 }
 
 .d-inline {
@@ -157,6 +157,7 @@ h2 {
 .text-decoration-1 {
     padding-top: 0.5rem;
     color: var(--font-3);
+    font-size: 1.25rem;
 }
 
 h3 {
@@ -209,7 +210,7 @@ h3 {
 .img-articulo {
     margin: 20px;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
 }
 
 .margin-x05 {
@@ -232,12 +233,20 @@ h3 {
     display: grid;
 }
 
+.grid-main {
+    grid-template-columns: auto;
+}
+
 .grid-card {
     grid-template-columns: 15vh auto;
 }
 
 .grid-card-2 {
-    grid-template-columns: 25vh auto;
+    grid-template-columns: auto auto;
+}
+
+.grid-card-3 {
+    grid-template-columns: auto;
 }
 
 .grid-button {
@@ -268,27 +277,6 @@ h3 {
     background-color: #3a5ba0;
 }
 
-.background-img {
-    border-radius: 5px;
-    background-image: url("https://w0.peakpx.com/wallpaper/48/186/HD-wallpaper-pc-gmaer-pc-gamer-teclado-gamer-thumbnail.jpg");
-    background-position: center;
-    background-size: auto;
-}
-
-.background-img-1 {
-    border-radius: 5px;
-    background-image: url("https://www.reab.es/wp-content/uploads/2020/04/pelicula-en-casa-678x381.jpg");
-    background-position: center;
-    background-size: auto;
-}
-
-.background-img-2 {
-    border-radius: 5px;
-    background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/7c/f4.jpg");
-    background-position: center;
-    background-size: auto;
-}
-
 .button-redes {
     color: var(--font-2);
     background-color: var(--third);
@@ -311,4 +299,18 @@ h3 {
 
 .margin-bottom {
     margin-bottom: 10vh;
+}
+
+.card-3 {
+    border: #06283d 1px solid;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 10px;
+    color: var(--font-2);
+    background-color: #1f4690;
+}
+
+.img-ilustrativa {
+    border-radius: 5px;
+    width: 25vh;
 }
