@@ -1,316 +1,328 @@
 :root {
-    --primary: #144272;
-    --secondary: #205295;
-    --third: #2c74b3;
-    --fourth: #0a2647;
-    --font-1: #f4f4f2;
-    --font-2: #e8e8e8;
-    --font-3: #bbbfca;
-    --font-4: #495464;
-    --shadow-1: #2c3639;
+  --primary: #144272;
+  --secondary: #205295;
+  --third: #2c74b3;
+  --fourth: #0a2647;
+  --font-1: #f4f4f2;
+  --font-2: #e8e8e8;
+  --font-3: #bbbfca;
+  --font-4: #495464;
+  --shadow-1: #2c3639;
 }
 
 body {
-    font-family: "PT sans";
-    background-color: var(--third);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: "PT sans";
+  background-color: var(--third);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav,
 header,
 main,
 footer {
-    padding: 0% 7%;
+  padding: 0% 7%;
 }
 
 nav {
-    height: 7vh;
+  height: 7vh;
 }
 
 header {
-    background-color: var(--secondary);
-    padding: 30px;
+  background-color: var(--secondary);
+  padding: 30px;
 }
 
 footer {
-    margin-top: auto;
-    background-color: var(--fourth);
-    height: 12vh;
+  margin-top: auto;
+  background-color: var(--fourth);
+  height: 12vh;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .navbar {
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary);
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
 }
 
 .logo {
-    font-size: 2.5rem;
-    color: var(--font-1);
+  font-size: 2.5rem;
+  color: var(--font-1);
 }
 
 .icon-decoration {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .nav-btn {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-options {
-    margin: 0.625rem;
+  margin: 0.625rem;
 }
 
 .btn-navbar {
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border: 2px solid cadetblue;
-    display: inline-block;
-    color: var(--font-1);
-    transition: all 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid cadetblue;
+  display: inline-block;
+  color: var(--font-1);
+  transition: all 0.5s;
 }
 
 .btn-navbar:hover {
-    background-color: var(--third);
-    padding-left: 1rem;
-    padding-right: 1rem;
+  background-color: var(--third);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .btn-navbar:active {
-    color: #144272;
-    background-color: aqua;
+  color: #144272;
+  background-color: aqua;
 }
 
 .nombre {
-    color: var(--font-1);
-    font-family: "anton";
-    padding: 0.5rem;
+  color: var(--font-1);
+  font-family: "anton";
+  padding: 0.5rem;
 }
 
 .flex-center {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .aling-center {
-    align-items: center;
+  align-items: center;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .secondari-title {
-    padding-left: 0.5rem;
-    font-size: 2rem;
-    color: var(--font-3);
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  color: var(--font-3);
 }
 
 .d-inline {
-    display: inline;
+  display: inline;
 }
 
 .d-block {
-    display: block;
+  display: block;
 }
 
 .d-inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .list-column {
-    flex-direction: column;
-    padding-left: 1rem;
+  flex-direction: column;
+  /* padding-left: 1rem;*/
 }
 
 .item {
-    font-size: 2rem;
-    padding: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .list {
-    padding: 1vh;
-    height: 3vh;
+  padding: 1vh;
+  height: 3vh;
 }
 
 .text-decoration-1 {
-    padding-top: 0.5rem;
-    color: var(--font-3);
-    font-size: 1.25rem;
+  padding-top: 0.5rem;
+  color: var(--font-3);
+  font-size: 1.25rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .card {
-    border: #144272 2px solid;
-    border-radius: 15px;
-    margin: 0.5rem;
-    padding: 10px;
-    color: var(--font-2);
-    background-color: var(--primary);
+  border: #144272 2px solid;
+  border-radius: 15px;
+  margin: 0.5rem;
+  padding: 10px;
+  color: var(--font-2);
+  background-color: var(--primary);
 }
 
 .card:hover {
-    border: none;
-    background-color: var(--secondary);
-    border-left: var(--shadow-1) 4px solid;
-    border-bottom: var(--shadow-1) 4px solid;
+  border: none;
+  background-color: var(--secondary);
+  border-left: var(--shadow-1) 4px solid;
+  border-bottom: var(--shadow-1) 4px solid;
 }
 
-.conteiner {
-    border-radius: 1rem;
-    border: 1px solid;
-    padding: 2vh;
-    margin: 1rem;
-    background-color: var(--secondary);
+.container {
+  border-radius: 1rem;
+  border: 1px solid;
+  padding: 2vh;
+  margin: 1rem;
+  background-color: var(--secondary);
 }
 
 .button-active {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .text-decoration-2 {
-    font-family: "anton";
+  font-family: "anton";
 }
 
 .font-2 {
-    font-family: Merriweather Sans;
+  font-family: Merriweather Sans;
 }
 
 .foto-frente {
-    border-radius: 1rem;
-    margin: 20px;
-    border-left: var(--shadow-1) 2px solid;
-    border-bottom: var(--shadow-1) 2px solid;
+  border-radius: 1rem;
+  margin: 20px;
+  border-left: var(--shadow-1) 2px solid;
+  border-bottom: var(--shadow-1) 2px solid;
 }
 
 .img-articulo {
-    margin: 20px;
-    border-radius: 10px;
-    height: 150px;
+  margin: 20px;
+  border-radius: 10px;
+  height: 150px;
 }
 
 .margin-x05 {
-    margin: 7px;
+  margin: 7px;
 }
 
 .margin-x1 {
-    margin: 15px;
+  margin: 15px;
 }
 
 .margin-x1-right {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .margin-x1-left {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .d-grid {
-    display: grid;
+  display: grid;
 }
 
 .grid-main {
-    grid-template-columns: auto;
+  grid-template-columns: auto;
+}
+
+.grid-main-1 {
+  grid-template-columns: auto 50%;
 }
 
 .grid-card {
-    grid-template-columns: 15vh auto;
+  grid-template-columns: 15vh auto;
 }
 
 .grid-card-2 {
-    grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 .grid-card-3 {
-    grid-template-columns: auto;
+  grid-template-columns: auto;
 }
 
 .grid-button {
-    grid-template-columns: 8vh 12vh auto;
+  grid-template-columns: 8vh 12vh auto;
 }
 
 .grid-list-container {
-    grid-template-columns: auto;
+  grid-template-columns: auto;
 }
 
 .grid-list-container-small {
-    grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 .card-2 {
-    border: #06283d 1px solid;
-    border-radius: 10px;
-    margin: 0.5rem;
-    padding: 10px;
-    color: var(--font-2);
-    background-color: #1f4690;
+  border: #06283d 1px solid;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 10px;
+  color: var(--font-2);
+  background-color: #1f4690;
 }
 
 .card-2:hover {
-    border: none;
-    border-left: var(--shadow-1) 4px solid;
-    border-bottom: var(--shadow-1) 4px solid;
-    background-color: #3a5ba0;
+  border: none;
+  border-left: var(--shadow-1) 4px solid;
+  border-bottom: var(--shadow-1) 4px solid;
+  background-color: #3a5ba0;
 }
 
 .button-redes {
-    color: var(--font-2);
-    background-color: var(--third);
-    border: none;
+  color: var(--font-2);
+  background-color: var(--third);
+  border: none;
 }
 
 .button-redes:hover {
-    cursor: pointer;
-    border-radius: 15px;
-    border-left: var(--shadow-1) 4px solid;
-    border-bottom: var(--shadow-1) 4px solid;
-    background-color: #3a5ba0;
+  cursor: pointer;
+  border-radius: 15px;
+  border-left: var(--shadow-1) 4px solid;
+  border-bottom: var(--shadow-1) 4px solid;
+  background-color: #3a5ba0;
 }
 
 .button-redes:active {
-    color: #06283d;
-    background-color: aqua;
-    border: none;
+  color: #06283d;
+  background-color: aqua;
+  border: none;
 }
 
 .margin-bottom {
-    margin-bottom: 10vh;
+  margin-bottom: 10vh;
 }
 
 .card-3 {
-    border: #06283d 1px solid;
-    border-radius: 10px;
-    margin: 0.5rem;
-    padding: 10px;
-    color: var(--font-2);
-    background-color: #1f4690;
+  border: #06283d 1px solid;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 10px;
+  color: var(--font-2);
+  background-color: #1f4690;
 }
 
 .img-ilustrativa {
-    border-radius: 5px;
-    width: 25vh;
+  border-radius: 5px;
+  width: 25vh;
+}
+
+.nav-none {
+  display: block;
+}
+
+.d-add-small {
+  display: none;
 }
